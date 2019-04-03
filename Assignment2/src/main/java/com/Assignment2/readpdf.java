@@ -113,11 +113,12 @@ class readpdf {
 	               
 			               thread1 t1 = new thread1(coursetable);
 			               t1.start();
+				       Thread.sleep(2000);
 			              
 			         
 			               thread2 t2 = new thread2(datetable);
 			               t2.start();
-			               
+			               Thread.sleep(2000);
 			               
 			               thread3 t3 = new thread3(codetable,coursetable);
 			               t3.start();
@@ -126,9 +127,11 @@ class readpdf {
 			              
 			               thread4 t4 = new thread4(listsoc);
 			               t4.start();
+				       Thread.sleep(2000);
 			               t4.join();
 			               t3.printlist();//display soc course
-			              
+			               Thread.sleep(2000);
+				    
 			               thread5 t5 = new thread5(lines);
 			               t5.start();
 	               
