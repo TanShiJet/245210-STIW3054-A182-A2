@@ -2,6 +2,15 @@
 ## Output
 ![](https://github.com/TanShiJet/245210-STIW3054-A182-A2/blob/master/Output.PNG)
 
+## Introduction
+This is a small java system that can read data from a pdf file, analyze the file and generate the following output
+
+1. Calculate the total number of courses.
+2. Calculate the total number of days.
+3. List of courses from SOC.
+4. Calculate the number of courses from SOC
+5. Display the information of STIW3054 (Bil, Code, Course, date and time).
+
 ## UML
 ![](https://github.com/TanShiJet/245210-STIW3054-A182-A2/blob/master/uml.PNG)
 
